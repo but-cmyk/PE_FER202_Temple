@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "Admin",
+      "fullName": "Admin Manager",
+      "email": "admin@test.com"
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password": "user123",
+      "role": "User",
+      "fullName": "Nguyen Van User",
+      "email": "user1@test.com"
+    },
+    {
+      "id": "3",
+      "username": "agent",
+      "password": "agent123",
+      "role": "User",
+      "fullName": "Tran Thi Agent",
+      "email": "agent@test.com"
+    }
+  ],
+  "locations": [
+    {
+      "id": "1",
+      "name": "Convention Center"
+    },
+    {
+      "id": "2",
+      "name": "Grand Ballroom"
+    },
+    {
+      "id": "3",
+      "name": "Outdoor Park"
+    }
+  ],
+  "events": [
+    {
+      "id": "1",
+      "name": "Tech Expo 2026",
+      "locationId": "1",
+      "duration": 8,
+      "organizer": "FPT Software",
+      "priceWeekday": 100000,
+      "priceWeekend": 150000,
+      "eventDate": "20/04/2026"
+    },
+    {
+      "id": "2",
+      "name": "Gala Dinner",
+      "locationId": "2",
+      "duration": 4,
+      "organizer": "FPT University",
+      "priceWeekday": 500000,
+      "priceWeekend": 700000,
+      "eventDate": "21/04/2026"
+    }
+  ]
+}

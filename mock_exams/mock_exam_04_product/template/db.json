@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "Admin",
+      "fullName": "Admin Manager",
+      "email": "admin@test.com"
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password": "user123",
+      "role": "User",
+      "fullName": "Nguyen Van User",
+      "email": "user1@test.com"
+    },
+    {
+      "id": "3",
+      "username": "agent",
+      "password": "agent123",
+      "role": "User",
+      "fullName": "Tran Thi Agent",
+      "email": "agent@test.com"
+    }
+  ],
+  "brands": [
+    {
+      "id": "1",
+      "name": "Apple"
+    },
+    {
+      "id": "2",
+      "name": "Samsung"
+    },
+    {
+      "id": "3",
+      "name": "Sony"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "iPhone 13",
+      "brandId": "1",
+      "warranty": 12,
+      "model": "A2633",
+      "priceWeekday": 18000000,
+      "priceWeekend": 17500000,
+      "releaseDate": "24/09/2021"
+    },
+    {
+      "id": "2",
+      "name": "Galaxy S22",
+      "brandId": "2",
+      "warranty": 24,
+      "model": "SM-S901B",
+      "priceWeekday": 16000000,
+      "priceWeekend": 15500000,
+      "releaseDate": "25/02/2022"
+    },
+    {
+      "id": "3",
+      "name": "WH-1000XM4",
+      "brandId": "3",
+      "warranty": 12,
+      "model": "XM4-B",
+      "priceWeekday": 6000000,
+      "priceWeekend": 5800000,
+      "releaseDate": "06/08/2020"
+    }
+  ]
+}

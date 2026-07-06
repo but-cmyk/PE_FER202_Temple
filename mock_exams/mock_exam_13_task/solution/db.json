@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "Admin",
+      "fullName": "Admin Manager",
+      "email": "admin@test.com"
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password": "user123",
+      "role": "User",
+      "fullName": "Nguyen Van User",
+      "email": "user1@test.com"
+    },
+    {
+      "id": "3",
+      "username": "agent",
+      "password": "agent123",
+      "role": "User",
+      "fullName": "Tran Thi Agent",
+      "email": "agent@test.com"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "name": "ERP System"
+    },
+    {
+      "id": "2",
+      "name": "Mobile App"
+    },
+    {
+      "id": "3",
+      "name": "Website Rebranding"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "name": "Design Database",
+      "projectId": "1",
+      "duration": 12,
+      "priority": "High",
+      "priceMin": 2000000,
+      "priceMax": 3000000,
+      "deadline": "15/04/2026"
+    },
+    {
+      "id": "2",
+      "name": "Implement Auth Flow",
+      "projectId": "1",
+      "duration": 8,
+      "priority": "Medium",
+      "priceMin": 1500000,
+      "priceMax": 2000000,
+      "deadline": "18/04/2026"
+    }
+  ]
+}

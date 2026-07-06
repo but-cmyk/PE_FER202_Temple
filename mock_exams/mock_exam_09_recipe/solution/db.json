@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "Admin",
+      "fullName": "Admin Manager",
+      "email": "admin@test.com"
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password": "user123",
+      "role": "User",
+      "fullName": "Nguyen Van User",
+      "email": "user1@test.com"
+    },
+    {
+      "id": "3",
+      "username": "agent",
+      "password": "agent123",
+      "role": "User",
+      "fullName": "Tran Thi Agent",
+      "email": "agent@test.com"
+    }
+  ],
+  "cuisines": [
+    {
+      "id": "1",
+      "name": "Vietnamese"
+    },
+    {
+      "id": "2",
+      "name": "Italian"
+    },
+    {
+      "id": "3",
+      "name": "Japanese"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "1",
+      "name": "Pho Bo",
+      "cuisineId": "1",
+      "prepTime": 180,
+      "difficulty": "Hard",
+      "priceMin": 50000,
+      "priceMax": 100000,
+      "createdDate": "01/01/2026"
+    },
+    {
+      "id": "2",
+      "name": "Spaghetti",
+      "cuisineId": "2",
+      "prepTime": 30,
+      "difficulty": "Easy",
+      "priceMin": 80000,
+      "priceMax": 150000,
+      "createdDate": "02/01/2026"
+    }
+  ]
+}

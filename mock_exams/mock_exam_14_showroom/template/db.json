@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "Admin",
+      "fullName": "Admin Manager",
+      "email": "admin@test.com"
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password": "user123",
+      "role": "User",
+      "fullName": "Nguyen Van User",
+      "email": "user1@test.com"
+    },
+    {
+      "id": "3",
+      "username": "agent",
+      "password": "agent123",
+      "role": "User",
+      "fullName": "Tran Thi Agent",
+      "email": "agent@test.com"
+    }
+  ],
+  "dealers": [
+    {
+      "id": "1",
+      "name": "Hanoi Ford"
+    },
+    {
+      "id": "2",
+      "name": "Saigon Toyota"
+    },
+    {
+      "id": "3",
+      "name": "Da Nang Hyundai"
+    }
+  ],
+  "cars": [
+    {
+      "id": "1",
+      "name": "Ford Ranger",
+      "dealerId": "1",
+      "year": 2023,
+      "engine": "2.0L Bi-Turbo",
+      "priceWeekday": 900000000,
+      "priceWeekend": 880000000,
+      "receivedDate": "05/01/2026"
+    },
+    {
+      "id": "2",
+      "name": "Toyota Camry",
+      "dealerId": "2",
+      "year": 2024,
+      "engine": "2.5L Hybrid",
+      "priceWeekday": 1400000000,
+      "priceWeekend": 1390000000,
+      "receivedDate": "12/01/2026"
+    }
+  ]
+}

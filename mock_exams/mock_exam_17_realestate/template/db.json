@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "Admin",
+      "fullName": "Admin Manager",
+      "email": "admin@test.com"
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password": "user123",
+      "role": "User",
+      "fullName": "Nguyen Van User",
+      "email": "user1@test.com"
+    },
+    {
+      "id": "3",
+      "username": "agent",
+      "password": "agent123",
+      "role": "User",
+      "fullName": "Tran Thi Agent",
+      "email": "agent@test.com"
+    }
+  ],
+  "agents": [
+    {
+      "id": "1",
+      "name": "Brokerage Team A"
+    },
+    {
+      "id": "2",
+      "name": "Brokerage Team B"
+    }
+  ],
+  "properties": [
+    {
+      "id": "1",
+      "name": "Landmark 81 Apartment",
+      "agentId": "1",
+      "area": 85,
+      "status": "Available",
+      "priceMin": 5000000000,
+      "priceMax": 5500000000,
+      "listedDate": "10/02/2026"
+    },
+    {
+      "id": "2",
+      "name": "Vinhome Riverside Villa",
+      "agentId": "2",
+      "area": 250,
+      "status": "Negotiating",
+      "priceMin": 20000000000,
+      "priceMax": 22000000000,
+      "listedDate": "15/02/2026"
+    }
+  ]
+}

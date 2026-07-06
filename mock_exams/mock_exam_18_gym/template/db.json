@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "Admin",
+      "fullName": "Admin Manager",
+      "email": "admin@test.com"
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password": "user123",
+      "role": "User",
+      "fullName": "Nguyen Van User",
+      "email": "user1@test.com"
+    },
+    {
+      "id": "3",
+      "username": "agent",
+      "password": "agent123",
+      "role": "User",
+      "fullName": "Tran Thi Agent",
+      "email": "agent@test.com"
+    }
+  ],
+  "trainers": [
+    {
+      "id": "1",
+      "name": "Trainer Coach Coach A"
+    },
+    {
+      "id": "2",
+      "name": "Trainer Coach Coach B"
+    }
+  ],
+  "gymClasses": [
+    {
+      "id": "1",
+      "name": "Power Yoga Morning",
+      "trainerId": "1",
+      "capacity": 15,
+      "level": "Intermediate",
+      "priceWeekday": 150000,
+      "priceWeekend": 200000,
+      "startDate": "01/04/2026"
+    },
+    {
+      "id": "2",
+      "name": "HIIT Weight Loss",
+      "trainerId": "2",
+      "capacity": 25,
+      "level": "Advanced",
+      "priceWeekday": 180000,
+      "priceWeekend": 220000,
+      "startDate": "05/04/2026"
+    }
+  ]
+}

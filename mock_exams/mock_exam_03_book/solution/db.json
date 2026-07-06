@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "Admin",
+      "fullName": "Admin Manager",
+      "email": "admin@test.com"
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password": "user123",
+      "role": "User",
+      "fullName": "Nguyen Van User",
+      "email": "user1@test.com"
+    },
+    {
+      "id": "3",
+      "username": "agent",
+      "password": "agent123",
+      "role": "User",
+      "fullName": "Tran Thi Agent",
+      "email": "agent@test.com"
+    }
+  ],
+  "genres": [
+    {
+      "id": "1",
+      "name": "Fiction"
+    },
+    {
+      "id": "2",
+      "name": "Science"
+    },
+    {
+      "id": "3",
+      "name": "History"
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "name": "The Hobbit",
+      "genreId": "1",
+      "pages": 310,
+      "author": "J.R.R. Tolkien",
+      "priceMin": 120000,
+      "priceMax": 180000,
+      "publishedDate": "21/09/1937"
+    },
+    {
+      "id": "2",
+      "name": "A Brief History of Time",
+      "genreId": "2",
+      "pages": 256,
+      "author": "Stephen Hawking",
+      "priceMin": 150000,
+      "priceMax": 220000,
+      "publishedDate": "01/03/1988"
+    },
+    {
+      "id": "3",
+      "name": "Sapiens",
+      "genreId": "3",
+      "pages": 512,
+      "author": "Yuval Noah Harari",
+      "priceMin": 200000,
+      "priceMax": 290000,
+      "publishedDate": "04/09/2011"
+    }
+  ]
+}

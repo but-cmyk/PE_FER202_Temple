@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "Admin",
+      "fullName": "Admin Manager",
+      "email": "admin@test.com"
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password": "user123",
+      "role": "User",
+      "fullName": "Nguyen Van User",
+      "email": "user1@test.com"
+    },
+    {
+      "id": "3",
+      "username": "agent",
+      "password": "agent123",
+      "role": "User",
+      "fullName": "Tran Thi Agent",
+      "email": "agent@test.com"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Action"
+    },
+    {
+      "id": "2",
+      "name": "Sci-Fi"
+    },
+    {
+      "id": "3",
+      "name": "Drama"
+    }
+  ],
+  "movies": [
+    {
+      "id": "1",
+      "name": "Inception",
+      "categoryId": "2",
+      "duration": 148,
+      "director": "Christopher Nolan",
+      "priceMin": 90000,
+      "priceMax": 150000,
+      "releaseDate": "16/07/2010"
+    },
+    {
+      "id": "2",
+      "name": "The Dark Knight",
+      "categoryId": "1",
+      "duration": 152,
+      "director": "Christopher Nolan",
+      "priceMin": 80000,
+      "priceMax": 140000,
+      "releaseDate": "18/07/2008"
+    },
+    {
+      "id": "3",
+      "name": "The Shawshank Redemption",
+      "categoryId": "3",
+      "duration": 142,
+      "director": "Frank Darabont",
+      "priceMin": 70000,
+      "priceMax": 120000,
+      "releaseDate": "23/09/1994"
+    }
+  ]
+}

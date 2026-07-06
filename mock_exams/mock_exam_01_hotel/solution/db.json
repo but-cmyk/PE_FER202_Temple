@@ -1,0 +1,94 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "Admin",
+      "fullName": "Admin Manager",
+      "email": "admin@test.com"
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password": "user123",
+      "role": "User",
+      "fullName": "Nguyen Van User",
+      "email": "user1@test.com"
+    },
+    {
+      "id": "3",
+      "username": "agent",
+      "password": "agent123",
+      "role": "User",
+      "fullName": "Tran Thi Agent",
+      "email": "agent@test.com"
+    }
+  ],
+  "roomTypes": [
+    {
+      "id": "1",
+      "name": "Standard"
+    },
+    {
+      "id": "2",
+      "name": "Deluxe"
+    },
+    {
+      "id": "3",
+      "name": "Suite"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "1",
+      "name": "Room 101",
+      "roomTypeId": "1",
+      "capacity": 2,
+      "bedType": "Twin",
+      "priceWeekday": 500000,
+      "priceWeekend": 700000,
+      "lastServiced": "15/03/2026"
+    },
+    {
+      "id": "2",
+      "name": "Room 102",
+      "roomTypeId": "1",
+      "capacity": 2,
+      "bedType": "Twin",
+      "priceWeekday": 500000,
+      "priceWeekend": 700000,
+      "lastServiced": "16/03/2026"
+    },
+    {
+      "id": "3",
+      "name": "Room 201",
+      "roomTypeId": "2",
+      "capacity": 2,
+      "bedType": "Queen",
+      "priceWeekday": 800000,
+      "priceWeekend": 1000000,
+      "lastServiced": "20/03/2026"
+    },
+    {
+      "id": "4",
+      "name": "Room 202",
+      "roomTypeId": "2",
+      "capacity": 4,
+      "bedType": "Double-Queen",
+      "priceWeekday": 1200000,
+      "priceWeekend": 1500000,
+      "lastServiced": "21/03/2026"
+    },
+    {
+      "id": "5",
+      "name": "Room 301",
+      "roomTypeId": "3",
+      "capacity": 2,
+      "bedType": "King",
+      "priceWeekday": 2000000,
+      "priceWeekend": 2500000,
+      "lastServiced": "25/03/2026"
+    }
+  ]
+}

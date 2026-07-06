@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "Admin",
+      "fullName": "Admin Manager",
+      "email": "admin@test.com"
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password": "user123",
+      "role": "User",
+      "fullName": "Nguyen Van User",
+      "email": "user1@test.com"
+    },
+    {
+      "id": "3",
+      "username": "agent",
+      "password": "agent123",
+      "role": "User",
+      "fullName": "Tran Thi Agent",
+      "email": "agent@test.com"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Graphic Design"
+    },
+    {
+      "id": "2",
+      "name": "Web Development"
+    }
+  ],
+  "gigs": [
+    {
+      "id": "1",
+      "name": "Logo Design Premium",
+      "categoryId": "1",
+      "delivery": 3,
+      "level": "Level 2",
+      "priceMin": 500000,
+      "priceMax": 1200000,
+      "createdDate": "12/03/2026"
+    },
+    {
+      "id": "2",
+      "name": "Next.js Landing Page",
+      "categoryId": "2",
+      "delivery": 7,
+      "level": "Top Rated",
+      "priceMin": 2000000,
+      "priceMax": 5000000,
+      "createdDate": "14/03/2026"
+    }
+  ]
+}

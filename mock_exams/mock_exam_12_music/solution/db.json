@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "Admin",
+      "fullName": "Admin Manager",
+      "email": "admin@test.com"
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password": "user123",
+      "role": "User",
+      "fullName": "Nguyen Van User",
+      "email": "user1@test.com"
+    },
+    {
+      "id": "3",
+      "username": "agent",
+      "password": "agent123",
+      "role": "User",
+      "fullName": "Tran Thi Agent",
+      "email": "agent@test.com"
+    }
+  ],
+  "artists": [
+    {
+      "id": "1",
+      "name": "Son Tung M-TP"
+    },
+    {
+      "id": "2",
+      "name": "Den Vau"
+    },
+    {
+      "id": "3",
+      "name": "My Tam"
+    }
+  ],
+  "songs": [
+    {
+      "id": "1",
+      "name": "Chung Ta Cua Tuong Lai",
+      "artistId": "1",
+      "plays": 50000,
+      "album": "Single",
+      "priceWeekday": 100000000,
+      "priceWeekend": 5000000,
+      "releaseDate": "08/03/2024"
+    },
+    {
+      "id": "2",
+      "name": "Mang Tien Ve Cho Me",
+      "artistId": "2",
+      "plays": 30000,
+      "album": "Single",
+      "priceWeekday": 50000000,
+      "priceWeekend": 2000000,
+      "releaseDate": "29/12/2021"
+    }
+  ]
+}

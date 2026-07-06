@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "Admin",
+      "fullName": "Admin Manager",
+      "email": "admin@test.com"
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password": "user123",
+      "role": "User",
+      "fullName": "Nguyen Van User",
+      "email": "user1@test.com"
+    },
+    {
+      "id": "3",
+      "username": "agent",
+      "password": "agent123",
+      "role": "User",
+      "fullName": "Tran Thi Agent",
+      "email": "agent@test.com"
+    }
+  ],
+  "departments": [
+    {
+      "id": "1",
+      "name": "Computing"
+    },
+    {
+      "id": "2",
+      "name": "Business"
+    },
+    {
+      "id": "3",
+      "name": "Design"
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "name": "Nguyen Van A",
+      "departmentId": "1",
+      "gpa": 3.8,
+      "major": "Software Engineering",
+      "priceMin": 25000000,
+      "priceMax": 30000000,
+      "enrollmentDate": "05/09/2023"
+    },
+    {
+      "id": "2",
+      "name": "Tran Thi B",
+      "departmentId": "2",
+      "gpa": 3.2,
+      "major": "International Business",
+      "priceMin": 22000000,
+      "priceMax": 26000000,
+      "enrollmentDate": "06/09/2023"
+    },
+    {
+      "id": "3",
+      "name": "Le Van C",
+      "departmentId": "3",
+      "gpa": 3,
+      "major": "Graphic Design",
+      "priceMin": 24000000,
+      "priceMax": 28000000,
+      "enrollmentDate": "07/09/2023"
+    }
+  ]
+}

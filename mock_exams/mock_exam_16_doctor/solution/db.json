@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "Admin",
+      "fullName": "Admin Manager",
+      "email": "admin@test.com"
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password": "user123",
+      "role": "User",
+      "fullName": "Nguyen Van User",
+      "email": "user1@test.com"
+    },
+    {
+      "id": "3",
+      "username": "agent",
+      "password": "agent123",
+      "role": "User",
+      "fullName": "Tran Thi Agent",
+      "email": "agent@test.com"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "1",
+      "name": "Dr. Nguyen (Cardiology)"
+    },
+    {
+      "id": "2",
+      "name": "Dr. Tran (Pediatrics)"
+    },
+    {
+      "id": "3",
+      "name": "Dr. Le (Dermatology)"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "1",
+      "name": "Regular Heart Checkup",
+      "doctorId": "1",
+      "duration": 30,
+      "patient": "Bui Ngoc A",
+      "priceMin": 300000,
+      "priceMax": 500000,
+      "appointmentDate": "12/04/2026"
+    },
+    {
+      "id": "2",
+      "name": "Baby Growth Consult",
+      "doctorId": "2",
+      "duration": 45,
+      "patient": "Vu Thi B",
+      "priceMin": 200000,
+      "priceMax": 400000,
+      "appointmentDate": "13/04/2026"
+    }
+  ]
+}

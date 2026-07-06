@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "Admin",
+      "fullName": "Admin Manager",
+      "email": "admin@test.com"
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password": "user123",
+      "role": "User",
+      "fullName": "Nguyen Van User",
+      "email": "user1@test.com"
+    },
+    {
+      "id": "3",
+      "username": "agent",
+      "password": "agent123",
+      "role": "User",
+      "fullName": "Tran Thi Agent",
+      "email": "agent@test.com"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "1",
+      "name": "Unilever"
+    },
+    {
+      "id": "2",
+      "name": "Vinamilk"
+    },
+    {
+      "id": "3",
+      "name": "Masan Group"
+    }
+  ],
+  "items": [
+    {
+      "id": "1",
+      "name": "Omo Detergent 2kg",
+      "supplierId": "1",
+      "stock": 120,
+      "unit": "Bag",
+      "priceWeekday": 95000,
+      "priceWeekend": 110000,
+      "expiryDate": "15/12/2027"
+    },
+    {
+      "id": "2",
+      "name": "Vinamilk Fresh Milk 1L",
+      "supplierId": "2",
+      "stock": 200,
+      "unit": "Box",
+      "priceWeekday": 30000,
+      "priceWeekend": 35000,
+      "expiryDate": "20/08/2026"
+    }
+  ]
+}

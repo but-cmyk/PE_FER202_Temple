@@ -1,0 +1,94 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "Admin",
+      "fullName": "Admin Manager",
+      "email": "admin@test.com"
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password": "user123",
+      "role": "User",
+      "fullName": "Nguyen Van User",
+      "email": "user1@test.com"
+    },
+    {
+      "id": "3",
+      "username": "agent",
+      "password": "agent123",
+      "role": "User",
+      "fullName": "Tran Thi Agent",
+      "email": "agent@test.com"
+    }
+  ],
+  "breeds": [
+    {
+      "id": "1",
+      "name": "Dog"
+    },
+    {
+      "id": "2",
+      "name": "Cat"
+    },
+    {
+      "id": "3",
+      "name": "Rabbit"
+    }
+  ],
+  "pets": [
+    {
+      "id": "1",
+      "name": "Bella",
+      "breedId": "1",
+      "age": 24,
+      "owner": "Alice",
+      "priceWeekday": 200000,
+      "priceWeekend": 300000,
+      "lastVaccinated": "10/01/2026"
+    },
+    {
+      "id": "2",
+      "name": "Max",
+      "breedId": "1",
+      "age": 36,
+      "owner": "Bob",
+      "priceWeekday": 200000,
+      "priceWeekend": 300000,
+      "lastVaccinated": "15/02/2026"
+    },
+    {
+      "id": "3",
+      "name": "Luna",
+      "breedId": "2",
+      "age": 12,
+      "owner": "Charlie",
+      "priceWeekday": 150000,
+      "priceWeekend": 250000,
+      "lastVaccinated": "20/02/2026"
+    },
+    {
+      "id": "4",
+      "name": "Milo",
+      "breedId": "2",
+      "age": 18,
+      "owner": "David",
+      "priceWeekday": 150000,
+      "priceWeekend": 250000,
+      "lastVaccinated": "25/02/2026"
+    },
+    {
+      "id": "5",
+      "name": "Oliver",
+      "breedId": "3",
+      "age": 8,
+      "owner": "Eve",
+      "priceWeekday": 100000,
+      "priceWeekend": 180000,
+      "lastVaccinated": "05/03/2026"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "Admin",
+      "fullName": "Admin Manager",
+      "email": "admin@test.com"
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password": "user123",
+      "role": "User",
+      "fullName": "Nguyen Van User",
+      "email": "user1@test.com"
+    },
+    {
+      "id": "3",
+      "username": "agent",
+      "password": "agent123",
+      "role": "User",
+      "fullName": "Tran Thi Agent",
+      "email": "agent@test.com"
+    }
+  ],
+  "modules": [
+    {
+      "id": "1",
+      "name": "Module 1: React Basics"
+    },
+    {
+      "id": "2",
+      "name": "Module 2: Advanced Hooks"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "1",
+      "name": "Introduction to React",
+      "moduleId": "1",
+      "duration": 10,
+      "type": "Video",
+      "priceMin": 0,
+      "priceMax": 10000,
+      "releasedDate": "01/02/2026"
+    },
+    {
+      "id": "2",
+      "name": "UseState Hooks Deep Dive",
+      "moduleId": "1",
+      "duration": 25,
+      "type": "Video",
+      "priceMin": 5000,
+      "priceMax": 15000,
+      "releasedDate": "03/02/2026"
+    }
+  ]
+}

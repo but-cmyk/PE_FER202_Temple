@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "Admin",
+      "fullName": "Admin Manager",
+      "email": "admin@test.com"
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password": "user123",
+      "role": "User",
+      "fullName": "Nguyen Van User",
+      "email": "user1@test.com"
+    },
+    {
+      "id": "3",
+      "username": "agent",
+      "password": "agent123",
+      "role": "User",
+      "fullName": "Tran Thi Agent",
+      "email": "agent@test.com"
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "FPT Software"
+    },
+    {
+      "id": "2",
+      "name": "VNG Corp"
+    },
+    {
+      "id": "3",
+      "name": "Viettel"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "1",
+      "name": "React Developer",
+      "companyId": "1",
+      "experience": 2,
+      "location": "Hanoi",
+      "priceMin": 15000000,
+      "priceMax": 25000000,
+      "postedDate": "01/03/2026"
+    },
+    {
+      "id": "2",
+      "name": "NodeJS Tech Lead",
+      "companyId": "2",
+      "experience": 7,
+      "location": "Ho Chi Minh",
+      "priceMin": 40000000,
+      "priceMax": 60000000,
+      "postedDate": "02/03/2026"
+    }
+  ]
+}

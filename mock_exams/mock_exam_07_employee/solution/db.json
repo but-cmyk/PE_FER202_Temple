@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "Admin",
+      "fullName": "Admin Manager",
+      "email": "admin@test.com"
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password": "user123",
+      "role": "User",
+      "fullName": "Nguyen Van User",
+      "email": "user1@test.com"
+    },
+    {
+      "id": "3",
+      "username": "agent",
+      "password": "agent123",
+      "role": "User",
+      "fullName": "Tran Thi Agent",
+      "email": "agent@test.com"
+    }
+  ],
+  "departments": [
+    {
+      "id": "1",
+      "name": "Engineering"
+    },
+    {
+      "id": "2",
+      "name": "Human Resources"
+    },
+    {
+      "id": "3",
+      "name": "Marketing"
+    }
+  ],
+  "employees": [
+    {
+      "id": "1",
+      "name": "John Smith",
+      "departmentId": "1",
+      "experience": 6,
+      "role": "Senior Developer",
+      "priceWeekday": 50000000,
+      "priceWeekend": 600000,
+      "startDate": "01/06/2021"
+    },
+    {
+      "id": "2",
+      "name": "Emma Watson",
+      "departmentId": "2",
+      "experience": 3,
+      "role": "HR Executive",
+      "priceWeekday": 20000000,
+      "priceWeekend": 0,
+      "startDate": "15/08/2023"
+    },
+    {
+      "id": "3",
+      "name": "Ryan Reynolds",
+      "departmentId": "3",
+      "experience": 4,
+      "role": "Marketing Specialist",
+      "priceWeekday": 25000000,
+      "priceWeekend": 300000,
+      "startDate": "10/02/2022"
+    }
+  ]
+}
